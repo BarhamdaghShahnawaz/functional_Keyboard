@@ -6,6 +6,10 @@ body {
   color: #333;
  align-items: center;
   padding: 20px;
+  background: url(./assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .keyboard {
@@ -41,7 +45,7 @@ body {
 }
 
 .key.active {
-  background-color: #4caf50;
+  background-color: #000000;
   color: white;
   border-color: #388e3c;
 }
@@ -52,4 +56,3 @@ body {
     justify-content: center;
 
 }   
-

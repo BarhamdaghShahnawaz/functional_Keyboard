@@ -2,7 +2,7 @@ document.addEventListener("keydown", (e) => {
   const keyDiv = document.querySelector(`.key[data-code="${e.code}"]`);
   if (keyDiv) {
     keyDiv.classList.add("active");
-    setTimeout(() => keyDiv.classList.remove("active"), 200);
+    setTimeout(() => keyDiv.classList.remove("active"), 300);
   }
 });
 
