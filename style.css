@@ -2,14 +2,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   color: #333;
  align-items: center;
   padding: 20px;
-  background: url(./assets/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 }
 
 .keyboard {
@@ -18,6 +13,12 @@ body {
   gap: 5px;
   max-width: 1000px;
   margin: 20px auto;
+}
+
+.conatiner-keyboard{
+  position: absolute;
+  top: 50%;
+  left: 20%;
 }
 
 .row {
@@ -56,3 +57,20 @@ body {
     justify-content: center;
 
 }   
+
+.gif{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar{
+  width: 500px;
+  padding-left: 30px;
+  height: 50px;
+  border: 1px solid #9b9898;
+  border-radius: 25px;
+}
+
+
