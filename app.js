@@ -13,7 +13,7 @@ document.addEventListener("keydown", (e) => {
 
   if (e.key === "Backspace") {
     input.value = input.value.slice(0, -1);
-  } else if (e.key.length === 1) {
+  } else if (e.key.length === -1) {
     input.value += e.key;
   } else if (e.key === "Enter") {
     const search_item = input.value.trim();

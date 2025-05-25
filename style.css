@@ -74,3 +74,97 @@ body {
 }
 
 
+@media (max-width: 450px) {
+  
+  .keyboard{
+    display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  
+  .keyboard{
+    display: none;
+  }
+
+}
+
+
+
+@media (max-width: 640px) {
+  
+  .keyboard{
+    width: 100%;
+  }
+
+  .gif{
+    margin-top: 40px;
+    margin-left: 60%;
+  }
+
+ #searchbar{
+    margin-left: 100%;
+    width: 500px ; 
+    
+  }
+
+}
+
+
+@media (max-width: 720px) {
+  
+  .keyboard{
+    width: 100%;
+  }
+
+  .gif{
+    margin-top: 40px;
+    margin-left: 100%;
+  }
+
+ #searchbar{
+    margin-left: 100%;
+    width: 500px ; 
+    
+  }
+
+}
+
+@media (max-width: 800px) {
+  
+  .keyboard{
+    width: 100%;
+  }
+
+  .gif{
+    margin-top: 40px;
+    margin-left: 50%;
+  }
+
+ #searchbar{
+    margin-left: 70%;
+    width: 500px ; 
+    
+  }
+
+}
+
+@media (max-width: 920px) {
+  
+  .keyboard{
+    width: 100%;
+  }
+
+  .gif{
+    margin-top: 40px;
+    margin-left: 30%;
+  }
+
+ #searchbar{
+    margin-left: 50%;
+    width: 500px ; 
+    
+  }
+
+}
